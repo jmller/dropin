@@ -1,0 +1,8 @@
+kMDItemContentType             = "com.apple.application-bundle"
+kMDItemContentTypeTree         = (
+    "com.apple.application-bundle",
+    "com.apple.bundle",
+    "public.directory"
+)
+kMDItemDisplayName             = "Example.app"
+kMDItemKind                    = "Application"

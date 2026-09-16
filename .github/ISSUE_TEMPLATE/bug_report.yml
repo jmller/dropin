@@ -1,0 +1,65 @@
+name: Bug report
+description: Report a reproducible non-confidential Dropin problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security issues, credentials, and private-metadata exposure must be reported privately using SECURITY.md. Read SUPPORT.md before filing. GitHub issues are public.
+  - type: input
+    id: version
+    attributes:
+      label: Dropin version or commit
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: Installation method
+      options: [Checkout, GitHub zipapp, Homebrew tap, Python package, Other]
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: macOS version, build, architecture, and Python/restic/rclone versions
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and exit code
+      description: Replace private paths and names with placeholders.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual outcome
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal disposable reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted diagnostics
+      description: Never include passwords, tokens, rclone config, repository URLs, private metadata, or archive contents.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I used disposable data and removed credentials, private paths, filenames, tags, comments, content, and personal metadata.
+          required: true

@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "--",
+    "/drop/quiet.txt"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": ""
+}

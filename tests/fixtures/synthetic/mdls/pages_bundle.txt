@@ -1,0 +1,8 @@
+kMDItemContentType             = "com.apple.iwork.pages.sffpages"
+kMDItemContentTypeTree         = (
+    "com.apple.iwork.pages.sffpages",
+    "com.apple.package",
+    "public.directory"
+)
+kMDItemDisplayName             = "Letter.pages"
+kMDItemKind                    = "Pages Document"

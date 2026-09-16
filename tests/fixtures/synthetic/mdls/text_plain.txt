@@ -1,0 +1,11 @@
+kMDItemContentCreationDate     = 2025-12-24 23:59:59 +0000
+kMDItemContentType             = "public.plain-text"
+kMDItemContentTypeTree         = (
+    "public.plain-text",
+    "public.text",
+    "public.data"
+)
+kMDItemDisplayName             = "notes.txt"
+kMDItemFSSize                  = 42
+kMDItemKind                    = "Plain Text Document"
+kMDItemTextContent             = "alpha beta gamma"

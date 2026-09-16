@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "--",
+    "/drop/held.txt"
+  ],
+  "returncode": 0,
+  "stdout": "p4242\nn/drop/held.txt\n",
+  "stderr": ""
+}

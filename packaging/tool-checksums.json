@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "tools": {
+    "restic": {
+      "version": "0.19.1",
+      "source_checksums_url": "https://github.com/restic/restic/releases/download/v0.19.1/SHA256SUMS",
+      "version_pattern": "^restic (?:v)?(?P<version>[0-9]+\\.[0-9]+\\.[0-9]+)(?: |$)",
+      "assets": {
+        "darwin-arm64": {
+          "filename": "restic_0.19.1_darwin_arm64.bz2",
+          "url": "https://github.com/restic/restic/releases/download/v0.19.1/restic_0.19.1_darwin_arm64.bz2",
+          "sha256": "7be0a144ccc377880f294204aa271d76e4b79554b42a751151d425ce6ebac143"
+        },
+        "linux-amd64": {
+          "filename": "restic_0.19.1_linux_amd64.bz2",
+          "url": "https://github.com/restic/restic/releases/download/v0.19.1/restic_0.19.1_linux_amd64.bz2",
+          "sha256": "f415415624dcc452f2a02b8c33641791a8c6d6d3b65bbb3543fcf9a25151585c"
+        },
+        "linux-arm64": {
+          "filename": "restic_0.19.1_linux_arm64.bz2",
+          "url": "https://github.com/restic/restic/releases/download/v0.19.1/restic_0.19.1_linux_arm64.bz2",
+          "sha256": "a5f64aaab53d51e311fa3829124c5b703f2d14cf187d8640b6be3b2b49376465"
+        }
+      }
+    },
+    "rclone": {
+      "version": "1.75.1",
+      "source_checksums_url": "https://downloads.rclone.org/v1.75.1/SHA256SUMS",
+      "version_pattern": "^rclone v(?P<version>[0-9]+\\.[0-9]+\\.[0-9]+)(?: |$)",
+      "assets": {
+        "darwin-arm64": {
+          "filename": "rclone-v1.75.1-osx-arm64.zip",
+          "url": "https://downloads.rclone.org/v1.75.1/rclone-v1.75.1-osx-arm64.zip",
+          "sha256": "c61d7a371c62bcbbe882c3423aa4b8bf63485c248dd0f692997b8f0c3f6d0c6f"
+        },
+        "linux-amd64": {
+          "filename": "rclone-v1.75.1-linux-amd64.zip",
+          "url": "https://downloads.rclone.org/v1.75.1/rclone-v1.75.1-linux-amd64.zip",
+          "sha256": "982b5aa772841168f8e380f139e9e787b2a105403e32b94da8676a0e1c0a13ab"
+        },
+        "linux-arm64": {
+          "filename": "rclone-v1.75.1-linux-arm64.zip",
+          "url": "https://downloads.rclone.org/v1.75.1/rclone-v1.75.1-linux-arm64.zip",
+          "sha256": "03f2504174034b6d004152ed7369251c9a9ec1f7e0836eda420f5c7a5ec0dff9"
+        }
+      }
+    }
+  }
+}

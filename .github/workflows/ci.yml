@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  core-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38
+        with:
+          python-version: "3.11"
+      - name: Fake, unit, pipeline, and contract suites
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: make test
+
+  real-tool-integration:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38
+        with:
+          python-version: "3.11"
+      - name: Download and verify pinned tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dropin-tools
+          python3 - <<'PY'
+          import bz2
+          import json
+          from pathlib import Path
+          from urllib.request import urlopen
+          import zipfile
+          from scripts.release_toolchain import (load_metadata, select_asset,
+              verify_archive, verify_publisher_checksums)
+
+          root = Path('/tmp/dropin-tools')
+          data = load_metadata(Path('packaging/tool-checksums.json'))
+          for tool in ('restic', 'rclone'):
+              asset = select_asset(data, tool, 'linux-amd64')
+              archive = root / asset['filename']
+              archive.write_bytes(urlopen(asset['url'], timeout=60).read())
+              sums = root / f'{tool}-SHA256SUMS'
+              sums.write_bytes(urlopen(
+                  data['tools'][tool]['source_checksums_url'], timeout=60).read())
+              verify_archive(archive, asset)
+              verify_publisher_checksums(sums, data['tools'][tool], asset)
+              if tool == 'restic':
+                  binary = root / 'restic'
+                  binary.write_bytes(bz2.decompress(archive.read_bytes()))
+              else:
+                  with zipfile.ZipFile(archive) as bundle:
+                      member = next(name for name in bundle.namelist() if name.endswith('/rclone'))
+                      binary = root / 'rclone'
+                      binary.write_bytes(bundle.read(member))
+              binary.chmod(0o755)
+          PY
+          python3 scripts/release_toolchain.py --tool restic \
+            --archive /tmp/dropin-tools/restic_0.19.1_linux_amd64.bz2 \
+            --binary /tmp/dropin-tools/restic \
+            --publisher-checksums /tmp/dropin-tools/restic-SHA256SUMS \
+            --system Linux --machine x86_64
+          python3 scripts/release_toolchain.py --tool rclone \
+            --archive /tmp/dropin-tools/rclone-v1.75.1-linux-amd64.zip \
+            --binary /tmp/dropin-tools/rclone \
+            --publisher-checksums /tmp/dropin-tools/rclone-SHA256SUMS \
+            --system Linux --machine x86_64
+          echo 'DROPIN_RESTIC_BIN=/tmp/dropin-tools/restic' >> "$GITHUB_ENV"
+          echo 'DROPIN_RCLONE_BIN=/tmp/dropin-tools/rclone' >> "$GITHUB_ENV"
+          echo '/tmp/dropin-tools' >> "$GITHUB_PATH"
+      - name: Real restic/rclone integration
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: make test-integration
+      - name: Restic repository contract probe
+        env:
+          PYTHONWARNINGS: error::ResourceWarning
+        run: make probe
+
+  macos-release-gate-status:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Report platform gate honestly
+        run: |
+          echo 'The macos-release-gate is not executed on Linux.'
+          echo 'This CI result does not satisfy the release gate.'
+          echo 'Use the recorded macOS 26+ Apple silicon candidate matrix.'

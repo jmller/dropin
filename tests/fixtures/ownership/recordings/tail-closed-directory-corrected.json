@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/sbin/lsof",
+    "-Fpn",
+    "+D",
+    "<SAMPLE_ROOT>"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "",
+  "condition": "tail-closed",
+  "expected_pid": null
+}

@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/usr/bin/xattr",
+    "-p",
+    "-x",
+    "com.apple.metadata:_kMDItemUserTags",
+    "<SAMPLE_ROOT>/tagged.pdf"
+  ],
+  "returncode": 0,
+  "stdout": "62 70 6C 69 73 74 30 30 A2 01 02 5A 45 76 69 64 \n65 6E 63 65 0A 36 5A 44 69 73 70 6F 73 61 62 6C \n65 08 0B 16 00 00 00 00 00 00 01 01 00 00 00 00 \n00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 \n00 00 00 21 \n",
+  "stderr": ""
+}

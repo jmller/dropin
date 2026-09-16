@@ -1,0 +1,46 @@
+_kMDItemDisplayNameWithExtensions      = "Evidence.app"
+kMDItemAlternateNames                  = (
+    "Evidence.app"
+)
+kMDItemCFBundleIdentifier              = "dev.dropin.disposable-evidence"
+kMDItemContentCreationDate             = 2026-09-08 09:19:20 +0000
+kMDItemContentCreationDate_Ranking     = 2026-09-08 00:00:00 +0000
+kMDItemContentModificationDate         = 2026-09-08 09:19:20 +0000
+kMDItemContentModificationDate_Ranking = 2026-09-08 00:00:00 +0000
+kMDItemContentType                     = "com.apple.application-bundle"
+kMDItemContentTypeTree                 = (
+    "com.apple.application-bundle",
+    "com.apple.application",
+    "public.executable",
+    "com.apple.localizable-name-bundle",
+    "com.apple.bundle",
+    "public.directory",
+    "public.item",
+    "com.apple.package"
+)
+kMDItemCopyright                       = ""
+kMDItemDateAdded                       = 2026-09-08 09:19:20 +0000
+kMDItemDateAdded_Ranking               = 2026-09-08 00:00:00 +0000
+kMDItemDescription                     = ""
+kMDItemDisplayName                     = "Evidence.app"
+kMDItemDocumentIdentifier              = 0
+kMDItemFSContentChangeDate             = 2026-09-08 09:19:20 +0000
+kMDItemFSCreationDate                  = 2026-09-08 09:19:20 +0000
+kMDItemFSCreatorCode                   = ""
+kMDItemFSFinderFlags                   = 0
+kMDItemFSHasCustomIcon                 = (null)
+kMDItemFSInvisible                     = 0
+kMDItemFSIsExtensionHidden             = 1
+kMDItemFSIsStationery                  = (null)
+kMDItemFSLabel                         = 0
+kMDItemFSName                          = "Evidence.app"
+kMDItemFSNodeCount                     = 1
+kMDItemFSOwnerGroupID                  = 20
+kMDItemFSOwnerUserID                   = 501
+kMDItemFSSize                          = 423
+kMDItemFSTypeCode                      = ""
+kMDItemInterestingDate_Ranking         = 2026-09-08 00:00:00 +0000
+kMDItemKeywords                        = ""
+kMDItemKind                            = "Application"
+kMDItemLogicalSize                     = 423
+kMDItemPhysicalSize                    = 4096

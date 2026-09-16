@@ -1,0 +1,20 @@
+kMDItemContentCreationDate     = 2026-03-01 10:11:12 +0000
+kMDItemContentModificationDate = 2026-03-02 08:00:00 +0000
+kMDItemContentType             = "com.adobe.pdf"
+kMDItemContentTypeTree         = (
+    "com.adobe.pdf",
+    "public.data",
+    "public.item"
+)
+kMDItemDisplayName             = "report, final.pdf"
+kMDItemFSName                  = "report, final.pdf"
+kMDItemFSSize                  = 12345
+kMDItemKind                    = "PDF Document"
+kMDItemNumberOfPages           = 3
+kMDItemFSIsStationery          = 0
+kMDItemUserTags                = (
+    tax,
+    "important, urgent"
+)
+kMDItemFinderComment           = "quarterly \"final\" copy"
+kMDItemWhereFroms              = (null)

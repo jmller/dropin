@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "+D",
+    "--",
+    "/drop/tree"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": ""
+}

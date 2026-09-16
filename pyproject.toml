@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dropin-archiver"
+dynamic = ["version"]
+description = "Folderless, Spotlight-aware drop archiver with an MCP query server"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "johannes", email = "mail@johann3s.de"}]
+# Commons Clause has no standard SPDX identifier; this refers to the combined text.
+license = "LicenseRef-Apache-2.0-With-Commons-Clause-1.0"
+license-files = ["LICENSE", "NOTICE"]
+classifiers = [
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jmller/dropin"
+Issues = "https://github.com/jmller/dropin/issues"
+
+[project.scripts]
+dropin = "dropin.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "dropin.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["dropin*"]
+
+[tool.setuptools.package-data]
+"dropin.store.schema" = ["*.sql"]
+"dropin.restore_state.schema" = ["*.sql"]

@@ -1,0 +1,87 @@
+Imported '<SAMPLE_ROOT>/tagged.pdf' of type 'com.adobe.pdf' with plugIn /System/Library/Spotlight/PDF.mdimporter.
+31 attributes returned
+{
+    ":MD:DeviceId" = 16777231;
+    ":MD:kMDItemPath" = "<SAMPLE_ROOT>/tagged.pdf";
+    "_kMDItemContentChangeDate" = "2026-09-08 09:20:40 +0000";
+    "_kMDItemCreationDate" = "2026-09-08 09:20:40 +0000";
+    "_kMDItemCreatorCode" = 0;
+    "_kMDItemDisplayNameWithExtensions" = "tagged.pdf";
+    "_kMDItemFileName" = "tagged.pdf";
+    "_kMDItemFinderFlags" = 0;
+    "_kMDItemFinderLabel" = 0;
+    "_kMDItemFromImporter" = 1;
+    "_kMDItemIsEvictedFile" = "<null>";
+    "_kMDItemIsExtensionHidden" = 0;
+    "_kMDItemIsFromImporter" = 1;
+    "_kMDItemOwnerGroupID" = 20;
+    "_kMDItemOwnerUserID" = 501;
+    "_kMDItemTypeCode" = 0;
+    "com_apple_metadata_modtime" = "810552040.3655571";
+    kMDItemContentCreationDate = "2026-09-08 09:20:40 +0000";
+    kMDItemContentModificationDate = "2026-09-08 09:20:40 +0000";
+    kMDItemContentType = "com.adobe.pdf";
+    kMDItemContentTypeTree =     (
+        "com.adobe.pdf",
+        "public.data",
+        "public.item",
+        "public.composite-content",
+        "public.content"
+    );
+    kMDItemDateAdded = "2026-09-08 09:20:40 +0000";
+    kMDItemDisplayName = "tagged.pdf";
+    kMDItemDocumentIdentifier = 0;
+    kMDItemKind =     {
+        "" = "PDF document";
+        ar = "\U0645\U0633\U062a\U0646\U062f PDF";
+        ca = "Document PDF";
+        cs = "Dokument PDF";
+        da = "PDF-dokument";
+        de = "PDF-Dokument";
+        el = "\U0388\U03b3\U03b3\U03c1\U03b1\U03c6\U03bf PDF";
+        en = "PDF document";
+        "en_AU" = "PDF document";
+        "en_CA" = "PDF document";
+        "en_GB" = "PDF document";
+        "en_IN" = "PDF document";
+        "en_PH" = "PDF document";
+        es = "Documento PDF";
+        "es_419" = "Documento PDF";
+        "es_US" = "Documento PDF";
+        fi = "PDF-dokumentti";
+        fr = "Document PDF";
+        "fr_CA" = "Document PDF";
+        he = "\U05de\U05e1\U05de\U05da PDF ";
+        hi = "PDF \U0926\U0938\U094d\U0924\U093e\U0935\U0947\U091c\U093c";
+        hr = "PDF dokument";
+        hu = "PDF dokumentum";
+        id = "Dokumen PDF";
+        it = PDF;
+        ja = "PDF\U66f8\U985e";
+        ko = "PDF \Ubb38\Uc11c";
+        ms = "Dokumen PDF";
+        nl = "Pdf-document";
+        no = "PDF-dokument";
+        pl = "dokument PDF";
+        "pt_BR" = "Documento PDF";
+        "pt_PT" = "Documento PDF";
+        ro = "Document PDF";
+        ru = "PDF-\U0434\U043e\U043a\U0443\U043c\U0435\U043d\U0442";
+        sk = "PDF dokument";
+        sl = "Dokument PDF";
+        sv = "PDF-dokument";
+        th = "\U0e40\U0e2d\U0e01\U0e2a\U0e32\U0e23 PDF";
+        tr = "PDF belgesi";
+        uk = "PDF-\U0434\U043e\U043a\U0443\U043c\U0435\U043d\U0442";
+        vi = "T\U00e0i li\U1ec7u PDF";
+        "zh_CN" = "PDF\U6587\U7a3f";
+        "zh_HK" = "PDF\U6587\U4ef6";
+        "zh_TW" = "PDF\U6587\U4ef6";
+    };
+    kMDItemLogicalSize = 606;
+    kMDItemNumberOfPages = 1;
+    kMDItemPhysicalSize = 4096;
+    kMDItemSecurityMethod = None;
+    kMDItemTextContent = "Dropin disposable PDF evidence.";
+    kMDItemVersion = "1.4";
+}

@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/sbin/lsof",
+    "-Fpn",
+    "+D",
+    "<SAMPLE_ROOT>"
+  ],
+  "returncode": 1,
+  "stdout": "p14610\nf3\nn<SAMPLE_ROOT>/held.txt\n",
+  "stderr": "",
+  "condition": "self-open",
+  "expected_pid": 14610
+}

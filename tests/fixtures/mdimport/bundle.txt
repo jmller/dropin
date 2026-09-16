@@ -1,0 +1,105 @@
+Imported '<SAMPLE_ROOT>/Evidence.app' of type 'com.apple.application-bundle' with plugIn /System/Library/Spotlight/Application.mdimporter.
+34 attributes returned
+{
+    ":MD:DeviceId" = 16777231;
+    ":MD:kMDItemPath" = "<SAMPLE_ROOT>/Evidence.app";
+    "_kMDItemContentChangeDate" = "2026-09-09 12:28:44 +0000";
+    "_kMDItemCreationDate" = "2026-09-09 12:28:44 +0000";
+    "_kMDItemCreatorCode" = 0;
+    "_kMDItemDisplayNameWithExtensions" =     {
+        "" = "Evidence.app";
+    };
+    "_kMDItemFileName" = "Evidence.app";
+    "_kMDItemFinderFlags" = 0;
+    "_kMDItemFinderLabel" = 0;
+    "_kMDItemFromImporter" = 1;
+    "_kMDItemIsEvictedFile" = "<null>";
+    "_kMDItemIsExtensionHidden" = 1;
+    "_kMDItemIsFromImporter" = 1;
+    "_kMDItemNodeCount" = 1;
+    "_kMDItemOwnerGroupID" = 20;
+    "_kMDItemOwnerUserID" = 501;
+    "_kMDItemTypeCode" = 0;
+    "_kMDItemURLCanBeHiddenBySystem" = 0;
+    "com_apple_metadata_modtime" = "810649724.381458";
+    kMDItemAlternateNames =     (
+        "Evidence.app"
+    );
+    kMDItemCFBundleIdentifier = "dev.dropin.disposable-evidence";
+    kMDItemContentCreationDate = "2026-09-09 12:28:44 +0000";
+    kMDItemContentModificationDate = "2026-09-09 12:28:44 +0000";
+    kMDItemContentType = "com.apple.application-bundle";
+    kMDItemContentTypeTree =     (
+        "com.apple.application-bundle",
+        "com.apple.application",
+        "public.executable",
+        "com.apple.localizable-name-bundle",
+        "com.apple.bundle",
+        "public.directory",
+        "public.item",
+        "com.apple.package"
+    );
+    kMDItemCopyright =     {
+        "" = "";
+    };
+    kMDItemDateAdded = "2026-09-09 12:28:44 +0000";
+    kMDItemDescription =     {
+        "" = "";
+    };
+    kMDItemDisplayName =     {
+        "" = Evidence;
+    };
+    kMDItemDocumentIdentifier = 0;
+    kMDItemExecutableArchitectures =     (
+    );
+    kMDItemKeywords =     {
+        "" = "";
+        ko = "";
+    };
+    kMDItemKind =     {
+        "" = Application;
+        ar = "\U062a\U0637\U0628\U064a\U0642";
+        ca = App;
+        cs = Aplikace;
+        da = App;
+        de = Programm;
+        el = "\U0395\U03c6\U03b1\U03c1\U03bc\U03bf\U03b3\U03ae";
+        en = Application;
+        "en_AU" = Application;
+        "en_GB" = Application;
+        "en_IN" = Application;
+        "en_PH" = Application;
+        es = "Aplicaci\U00f3n";
+        "es_419" = "Aplicaci\U00f3n";
+        fi = Appi;
+        fr = Application;
+        "fr_CA" = Application;
+        he = "\U05d9\U05d9\U05e9\U05d5\U05dd";
+        hi = "\U0910\U092a\U094d\U0932\U093f\U0915\U0947\U0936\U0928";
+        hr = Aplikacija;
+        hu = "Alkalmaz\U00e1s";
+        id = Aplikasi;
+        it = Applicazione;
+        ja = "\U30a2\U30d7\U30ea\U30b1\U30fc\U30b7\U30e7\U30f3";
+        ko = "\Uc751\Uc6a9 \Ud504\Ub85c\Uadf8\Ub7a8";
+        ms = Aplikasi;
+        nl = App;
+        no = App;
+        pl = aplikacja;
+        pt = Aplicativo;
+        "pt_PT" = "Aplica\U00e7\U00e3o";
+        ro = "Aplica\U021bie";
+        ru = "\U041f\U0440\U043e\U0433\U0440\U0430\U043c\U043c\U0430";
+        sk = "Aplik\U00e1cia";
+        sl = Aplikacija;
+        sv = App;
+        th = "\U0e41\U0e2d\U0e1b\U0e1e\U0e25\U0e34\U0e40\U0e04\U0e0a\U0e31\U0e19";
+        tr = Uygulama;
+        uk = "\U041f\U0440\U043e\U0433\U0440\U0430\U043c\U0430";
+        vi = "\U1ee8ng d\U1ee5ng";
+        "zh_CN" = "\U5e94\U7528\U7a0b\U5e8f";
+        "zh_HK" = "\U61c9\U7528\U7a0b\U5f0f";
+        "zh_TW" = "\U61c9\U7528\U7a0b\U5f0f";
+    };
+    kMDItemVersion = "<null>";
+}

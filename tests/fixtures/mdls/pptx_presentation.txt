@@ -1,0 +1,54 @@
+_kMDItemDisplayNameWithExtensions      = "sample.pptx"
+_kMDItemPrimaryTextEmbedding           = (
+        {
+        "vec_data" = {length = 1024, bytes = 0x682ab818 1f24a527 d0a69b9d 8aaf102b ... e62c3d26 d3ae5528 };
+        "vec_dim" = 1;
+        "vec_format" = 1;
+        "vec_id" = 1793;
+        "vec_version" = 10;
+    }
+)
+kMDItemAuthors                         = (
+    "Dropin disposable evidence"
+)
+kMDItemContentCreationDate             = 2026-09-09 12:34:53 +0000
+kMDItemContentCreationDate_Ranking     = 2026-09-09 00:00:00 +0000
+kMDItemContentModificationDate         = 2026-09-09 12:34:53 +0000
+kMDItemContentModificationDate_Ranking = 2026-09-09 00:00:00 +0000
+kMDItemContentType                     = "org.openxmlformats.presentationml.presentation"
+kMDItemContentTypeTree                 = (
+    "org.openxmlformats.presentationml.presentation",
+    "org.openxmlformats.openxml",
+    "public.data",
+    "public.item",
+    "public.presentation",
+    "public.composite-content",
+    "public.content"
+)
+kMDItemDateAdded                       = 2026-09-09 12:34:53 +0000
+kMDItemDateAdded_Ranking               = 2026-09-09 00:00:00 +0000
+kMDItemDescription                     = "generated using python-pptx"
+kMDItemDisplayName                     = "sample.pptx"
+kMDItemDocumentIdentifier              = 0
+kMDItemEmbeddingVersion                = 3
+kMDItemFSContentChangeDate             = 2026-09-09 12:34:53 +0000
+kMDItemFSCreationDate                  = 2026-09-09 12:34:53 +0000
+kMDItemFSCreatorCode                   = ""
+kMDItemFSFinderFlags                   = 0
+kMDItemFSHasCustomIcon                 = (null)
+kMDItemFSInvisible                     = 0
+kMDItemFSIsExtensionHidden             = 0
+kMDItemFSIsStationery                  = (null)
+kMDItemFSLabel                         = 0
+kMDItemFSName                          = "sample.pptx"
+kMDItemFSNodeCount                     = (null)
+kMDItemFSOwnerGroupID                  = 20
+kMDItemFSOwnerUserID                   = 501
+kMDItemFSSize                          = 28315
+kMDItemFSTypeCode                      = ""
+kMDItemInterestingDate_Ranking         = 2026-09-09 00:00:00 +0000
+kMDItemKind                            = "PowerPoint Presentation (.pptx)"
+kMDItemLogicalSize                     = 28315
+kMDItemPhysicalSize                    = 28672
+kMDItemTextContentLanguage             = "en"
+kMDItemTitle                           = "Disposable PowerPoint evidence"

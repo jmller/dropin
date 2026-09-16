@@ -1,0 +1,17 @@
+{
+  "mdls/pdf_tagged.txt": {"recording": "mdls/recordings/tagged.pdf.json", "transform": "stdout"},
+  "mdls/text_plain.txt": {"recording": "mdls/recordings/sample.txt.json", "transform": "stdout"},
+  "mdls/pptx_presentation.txt": {"recording": "mdls/recordings/sample.pptx.json", "transform": "stdout"},
+  "mdls/app_bundle.txt": {"recording": "mdls/recordings/Evidence.app.json", "transform": "stdout"},
+  "mdls/folder_plain.txt": {"recording": "mdls/recordings/plain-folder.json", "transform": "stdout"},
+  "mdimport/pdf_with_text.txt": {"recording": "mdimport/recordings/tagged.pdf-d3.json", "transform": "stdout"},
+  "mdimport/no_text.txt": {"recording": "mdimport/recordings/plain-folder-d3.json", "transform": "stdout"},
+  "mdimport/bundle.txt": {"recording": "mdimport/recordings/Evidence.app-d3.json", "transform": "stdout"},
+  "mdimport/pptx_with_text.txt": {"recording": "mdimport/recordings/sample.pptx.json", "transform": "stdout"},
+  "xattr/tags_plist.bin": {"recording": "xattr/recordings/tags.json", "transform": "hex-stdout"},
+  "xattr/comment_plist.bin": {"recording": "xattr/recordings/comment.json", "transform": "hex-stdout"},
+  "ownership/file_open.json": {"recording": "ownership/recordings/self-open-file.json", "transform": "identity"},
+  "ownership/file_clear.json": {"recording": "ownership/recordings/self-closed-file.json", "transform": "identity"},
+  "ownership/dir_open.json": {"recording": "ownership/recordings/self-open-directory-corrected.json", "transform": "identity"},
+  "ownership/dir_clear.json": {"recording": "ownership/recordings/self-closed-directory-corrected.json", "transform": "identity"}
+}

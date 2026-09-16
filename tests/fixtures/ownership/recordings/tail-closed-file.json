@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/sbin/lsof",
+    "-Fpn",
+    "--",
+    "<SAMPLE_ROOT>/ownership/held.txt"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "",
+  "expected_pid": null,
+  "condition": "tail-closed"
+}

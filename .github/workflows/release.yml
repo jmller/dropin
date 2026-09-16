@@ -1,0 +1,36 @@
+name: Build release candidate
+
+on:
+  push:
+    tags:
+      - "v[0-9]*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-canonical-assets:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38
+        with:
+          python-version: "3.11"
+      - name: Build deterministic zipapp and checksum
+        env:
+          SOURCE_DATE_EPOCH: "1704067200"
+        run: python3 scripts/build-release.py --output-dir dist
+      - name: Verify candidate identity and checksum
+        run: |
+          test "$(python3 dist/dropin-0.1.0.pyz --version)" = "dropin 0.1.0"
+          cd dist
+          sha256sum --check SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: dropin-0.1.0-candidate
+          path: |
+            dist/dropin-0.1.0.pyz
+            dist/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,82 @@
+Imported '<SAMPLE_ROOT>/plain-folder' of type 'public.folder' with no plugIn.
+26 attributes returned
+{
+    ":MD:DeviceId" = 16777231;
+    ":MD:kMDItemPath" = "<SAMPLE_ROOT>/plain-folder";
+    "_kMDItemContentChangeDate" = "2026-09-09 12:28:44 +0000";
+    "_kMDItemCreationDate" = "2026-09-09 12:28:44 +0000";
+    "_kMDItemCreatorCode" = 0;
+    "_kMDItemDisplayNameWithExtensions" =     {
+        "" = "plain-folder";
+    };
+    "_kMDItemFileName" = "plain-folder";
+    "_kMDItemFinderFlags" = 0;
+    "_kMDItemFinderLabel" = 0;
+    "_kMDItemFromImporter" = 1;
+    "_kMDItemIsEvictedFile" = "<null>";
+    "_kMDItemIsExtensionHidden" = 0;
+    "_kMDItemIsFromImporter" = 1;
+    "_kMDItemNodeCount" = 0;
+    "_kMDItemOwnerGroupID" = 20;
+    "_kMDItemOwnerUserID" = 501;
+    "_kMDItemTypeCode" = 0;
+    "com_apple_metadata_modtime" = "810649724.3813461";
+    kMDItemContentCreationDate = "2026-09-09 12:28:44 +0000";
+    kMDItemContentModificationDate = "2026-09-09 12:28:44 +0000";
+    kMDItemContentType = "public.folder";
+    kMDItemContentTypeTree =     (
+        "public.folder",
+        "public.directory",
+        "public.item"
+    );
+    kMDItemDateAdded = "2026-09-09 12:28:44 +0000";
+    kMDItemDisplayName =     {
+        "" = "plain-folder";
+    };
+    kMDItemDocumentIdentifier = 0;
+    kMDItemKind =     {
+        "" = Folder;
+        ar = "\U0645\U062c\U0644\U062f";
+        ca = Carpeta;
+        cs = "Slo\U017eka";
+        da = Mappe;
+        de = Ordner;
+        el = "\U03a6\U03ac\U03ba\U03b5\U03bb\U03bf\U03c2";
+        en = Folder;
+        "en_AU" = Folder;
+        "en_GB" = Folder;
+        "en_IN" = Folder;
+        "en_PH" = Folder;
+        es = Carpeta;
+        "es_419" = Carpeta;
+        fi = Kansio;
+        fr = Dossier;
+        "fr_CA" = Dossier;
+        he = "\U05ea\U05d9\U05e7\U05d9\U05d4";
+        hi = "\U092b\U093c\U094b\U0932\U094d\U0921\U0930";
+        hr = Mapa;
+        hu = Mappa;
+        id = Folder;
+        it = Cartella;
+        ja = "\U30d5\U30a9\U30eb\U30c0";
+        ko = "\Ud3f4\Ub354";
+        ms = Folder;
+        nl = Map;
+        no = Mappe;
+        pl = folder;
+        pt = Pasta;
+        "pt_PT" = Pasta;
+        ro = Dosar;
+        ru = "\U041f\U0430\U043f\U043a\U0430";
+        sk = "Prie\U010dinok";
+        sl = Mapa;
+        sv = Mapp;
+        th = "\U0e42\U0e1f\U0e25\U0e40\U0e14\U0e2d\U0e23\U0e4c";
+        tr = "Klas\U00f6r";
+        uk = "\U041f\U0430\U043f\U043a\U0430";
+        vi = "Th\U01b0 m\U1ee5c";
+        "zh_CN" = "\U6587\U4ef6\U5939";
+        "zh_HK" = "\U8cc7\U6599\U593e";
+        "zh_TW" = "\U6a94\U6848\U593e";
+    };
+}

@@ -1,0 +1,423 @@
+{
+  "platform": {
+    "argv": [
+      "/usr/bin/sw_vers"
+    ],
+    "started_seconds": 2.0022180828964338,
+    "finished_seconds": 2.010165874962695,
+    "returncode": 0,
+    "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A5421a\n",
+    "stderr": ""
+  },
+  "finder_version": {
+    "argv": [
+      "/usr/bin/osascript",
+      "-e",
+      "tell application \"Finder\" to get version"
+    ],
+    "started_seconds": 2.0101758749224246,
+    "finished_seconds": 2.0520420409739017,
+    "returncode": 0,
+    "stdout": "27.0\n",
+    "stderr": ""
+  },
+  "sample": {
+    "files": 4096,
+    "bytes_per_file": 32768,
+    "source": "<SAMPLE_ROOT>/source",
+    "destination": "<SAMPLE_ROOT>/destination",
+    "content_verified": true
+  },
+  "copy": {
+    "argv": [
+      "/usr/bin/osascript",
+      "-e",
+      "on run argv\n    tell application \"Finder\"\n        duplicate (POSIX file (item 1 of argv) as alias) to (POSIX file (item 2 of argv) as alias)\n    end tell\nend run",
+      "<SAMPLE_ROOT>/source",
+      "<SAMPLE_ROOT>/destination"
+    ],
+    "returncode": 0,
+    "stdout": "folder source of folder destination of folder <SAMPLE_ROOT>\n",
+    "stderr": ""
+  },
+  "observations": [
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.013507374911569059,
+          "finished_seconds": 0.19567633292172104,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.19593924994114786,
+          "finished_seconds": 0.2621092499466613,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.26257820799946785,
+          "finished_seconds": 0.33227799995802343,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.3325782079482451,
+          "finished_seconds": 0.4048922499641776,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.4052255409769714,
+          "finished_seconds": 0.504185332916677,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.4062602079939097,
+          "finished_seconds": 0.5041453329613432,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.5047469999408349,
+          "finished_seconds": 0.6021140828961506,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.5058741249376908,
+          "finished_seconds": 0.6021756249247119,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.6028197079431266,
+          "finished_seconds": 0.69724591600243,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.603847665945068,
+          "finished_seconds": 0.6891649579629302,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.6979859999846667,
+          "finished_seconds": 0.7970232910010964,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.6988757909275591,
+          "finished_seconds": 0.7834050409728661,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.7983164159813896,
+          "finished_seconds": 0.9035669158911332,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.7990923749748617,
+          "finished_seconds": 0.882636750000529,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 0.9046344578964636,
+          "finished_seconds": 1.0140477499226108,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 0.9057843749178573,
+          "finished_seconds": 0.987895582919009,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 1.0154078329214826,
+          "finished_seconds": 1.1314204159425572,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 1.0164487079018727,
+          "finished_seconds": 1.0987318329280242,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "copy-request-outstanding",
+      "applescript_returncode_before": null,
+      "applescript_returncode_after": null,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 1.1328056659549475,
+          "finished_seconds": 1.25296754098963,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 1.1337408749386668,
+          "finished_seconds": 1.215430665994063,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "condition": "after-copy-request-returned",
+      "applescript_returncode_before": 0,
+      "applescript_returncode_after": 0,
+      "probes": [
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "+D",
+            "<SAMPLE_ROOT>/destination"
+          ],
+          "started_seconds": 1.5493899158900604,
+          "finished_seconds": 1.6923147909110412,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "argv": [
+            "/usr/sbin/lsof",
+            "-Fpn",
+            "--",
+            "<SAMPLE_ROOT>/destination/source/sample-0254.bin"
+          ],
+          "started_seconds": 1.5496507909847423,
+          "finished_seconds": 1.651724832947366,
+          "returncode": 1,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "limits": "Finder AppleScript duplicate, not a manual drag. Outstanding AppleScript alone does not prove active writing during every probe. No eviction/admission test or ownership safety proof."
+}

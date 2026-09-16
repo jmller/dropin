@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/usr/sbin/lsof",
+    "-Fpn",
+    "--",
+    "<SAMPLE_ROOT>/ownership/held.txt"
+  ],
+  "returncode": 0,
+  "stdout": "p14287\nf3\nn<SAMPLE_ROOT>/ownership/held.txt\n",
+  "stderr": "",
+  "expected_pid": 14287,
+  "condition": "tail-open"
+}

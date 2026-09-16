@@ -1,0 +1,54 @@
+_kMDItemPrimaryTextEmbedding           = (
+        {
+        "vec_data" = {length = 1024, bytes = 0xca2bfaa5 8129bb20 e9282a1e c9ae4c2c ... 3c2ac327 19b06428 };
+        "vec_dim" = 1;
+        "vec_format" = 1;
+        "vec_id" = 1773;
+        "vec_version" = 10;
+    }
+)
+kMDItemContentCreationDate             = 2026-09-08 09:19:20 +0000
+kMDItemContentCreationDate_Ranking     = 2026-09-08 00:00:00 +0000
+kMDItemContentModificationDate         = 2026-09-08 09:19:20 +0000
+kMDItemContentModificationDate_Ranking = 2026-09-08 00:00:00 +0000
+kMDItemContentType                     = "com.adobe.pdf"
+kMDItemContentTypeTree                 = (
+    "com.adobe.pdf",
+    "public.data",
+    "public.item",
+    "public.composite-content",
+    "public.content"
+)
+kMDItemDateAdded                       = 2026-09-08 09:19:20 +0000
+kMDItemDateAdded_Ranking               = 2026-09-08 00:00:00 +0000
+kMDItemDisplayName                     = "tagged.pdf"
+kMDItemDocumentIdentifier              = 0
+kMDItemEmbeddingVersion                = 3
+kMDItemFinderComment                   = "Disposable evidence only"
+kMDItemFSContentChangeDate             = 2026-09-08 09:19:20 +0000
+kMDItemFSCreationDate                  = 2026-09-08 09:19:20 +0000
+kMDItemFSCreatorCode                   = ""
+kMDItemFSFinderFlags                   = 0
+kMDItemFSHasCustomIcon                 = (null)
+kMDItemFSInvisible                     = 0
+kMDItemFSIsExtensionHidden             = 0
+kMDItemFSIsStationery                  = (null)
+kMDItemFSLabel                         = 0
+kMDItemFSName                          = "tagged.pdf"
+kMDItemFSNodeCount                     = (null)
+kMDItemFSOwnerGroupID                  = 20
+kMDItemFSOwnerUserID                   = 501
+kMDItemFSSize                          = 606
+kMDItemFSTypeCode                      = ""
+kMDItemInterestingDate_Ranking         = 2026-09-08 00:00:00 +0000
+kMDItemKind                            = "PDF document"
+kMDItemLogicalSize                     = 606
+kMDItemNumberOfPages                   = 1
+kMDItemPhysicalSize                    = 4096
+kMDItemSecurityMethod                  = "None"
+kMDItemTextContentLanguage             = "en"
+kMDItemUserTags                        = (
+    Evidence,
+    Disposable
+)
+kMDItemVersion                         = "1.4"

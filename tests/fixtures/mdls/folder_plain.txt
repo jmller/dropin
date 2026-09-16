@@ -1,0 +1,32 @@
+_kMDItemDisplayNameWithExtensions      = "plain-folder"
+kMDItemContentCreationDate             = 2026-09-08 09:19:20 +0000
+kMDItemContentCreationDate_Ranking     = 2026-09-08 00:00:00 +0000
+kMDItemContentModificationDate         = 2026-09-08 09:19:20 +0000
+kMDItemContentModificationDate_Ranking = 2026-09-08 00:00:00 +0000
+kMDItemContentType                     = "public.folder"
+kMDItemContentTypeTree                 = (
+    "public.folder",
+    "public.directory",
+    "public.item"
+)
+kMDItemDateAdded                       = 2026-09-08 09:19:20 +0000
+kMDItemDateAdded_Ranking               = 2026-09-08 00:00:00 +0000
+kMDItemDisplayName                     = "plain-folder"
+kMDItemDocumentIdentifier              = 0
+kMDItemFSContentChangeDate             = 2026-09-08 09:19:20 +0000
+kMDItemFSCreationDate                  = 2026-09-08 09:19:20 +0000
+kMDItemFSCreatorCode                   = ""
+kMDItemFSFinderFlags                   = 0
+kMDItemFSHasCustomIcon                 = (null)
+kMDItemFSInvisible                     = 0
+kMDItemFSIsExtensionHidden             = 0
+kMDItemFSIsStationery                  = (null)
+kMDItemFSLabel                         = 0
+kMDItemFSName                          = "plain-folder"
+kMDItemFSNodeCount                     = 0
+kMDItemFSOwnerGroupID                  = 20
+kMDItemFSOwnerUserID                   = 501
+kMDItemFSSize                          = (null)
+kMDItemFSTypeCode                      = ""
+kMDItemInterestingDate_Ranking         = 2026-09-08 00:00:00 +0000
+kMDItemKind                            = "Folder"

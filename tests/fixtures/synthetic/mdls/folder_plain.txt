@@ -1,0 +1,8 @@
+kMDItemContentType             = "public.folder"
+kMDItemContentTypeTree         = (
+    "public.folder",
+    "public.directory",
+    "public.item"
+)
+kMDItemDisplayName             = "Receipts"
+kMDItemKind                    = "Folder"

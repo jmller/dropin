@@ -1,0 +1,2 @@
+kMDItemContentType             = "public.folder"
+this line has no equals sign at all

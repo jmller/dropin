@@ -1,0 +1,82 @@
+Imported '<SAMPLE_ROOT>/sample.pptx' of type 'org.openxmlformats.presentationml.presentation' with plugIn /System/Library/Spotlight/Office.mdimporter.
+31 attributes returned
+{
+    ":MD:DeviceId" = 16777231;
+    ":MD:kMDItemPath" = "<SAMPLE_ROOT>/sample.pptx";
+    "_kMDItemContentChangeDate" = "2026-09-09 12:34:53 +0000";
+    "_kMDItemCreationDate" = "2026-09-09 12:34:53 +0000";
+    "_kMDItemCreatorCode" = 0;
+    "_kMDItemDisplayNameWithExtensions" =     {
+        "" = "sample.pptx";
+    };
+    "_kMDItemFileName" = "sample.pptx";
+    "_kMDItemFinderFlags" = 0;
+    "_kMDItemFinderLabel" = 0;
+    "_kMDItemFromImporter" = 1;
+    "_kMDItemIsEvictedFile" = "<null>";
+    "_kMDItemIsExtensionHidden" = 0;
+    "_kMDItemIsFromImporter" = 1;
+    "_kMDItemOwnerGroupID" = 20;
+    "_kMDItemOwnerUserID" = 501;
+    "_kMDItemTypeCode" = 0;
+    "com_apple_metadata_modtime" = "810650093.9031775";
+    kMDItemAuthors =     (
+        "Dropin disposable evidence"
+    );
+    kMDItemContentCreationDate = "2026-09-09 12:34:53 +0000";
+    kMDItemContentModificationDate = "2026-09-09 12:34:53 +0000";
+    kMDItemContentType = "org.openxmlformats.presentationml.presentation";
+    kMDItemContentTypeTree =     (
+        "org.openxmlformats.presentationml.presentation",
+        "org.openxmlformats.openxml",
+        "public.data",
+        "public.item",
+        "public.presentation",
+        "public.composite-content",
+        "public.content"
+    );
+    kMDItemDateAdded = "2026-09-09 12:34:53 +0000";
+    kMDItemDescription = "generated using python-pptx";
+    kMDItemDisplayName =     {
+        "" = "sample.pptx";
+    };
+    kMDItemDocumentIdentifier = 0;
+    kMDItemKind =     {
+        "" = "Microsoft PowerPoint Presentation";
+        Base = "Microsoft PowerPoint Presentation";
+        ar = "PowerPoint Presentation (.pptx)\U200e";
+        cs = "Prezentace aplikace PowerPoint (.pptx)";
+        da = "PowerPoint-pr\U00e6sentation (.pptx)";
+        de = "PowerPoint-Pr\U00e4sentation (.pptx)";
+        el = "\U03a0\U03b1\U03c1\U03bf\U03c5\U03c3\U03af\U03b1\U03c3\U03b7 \U03c4\U03bf\U03c5 PowerPoint (.pptx)";
+        en = "PowerPoint Presentation (.pptx)";
+        "en_GB" = "PowerPoint Presentation (.pptx)";
+        es = "Presentaci\U00f3n de PowerPoint (.pptx)";
+        "es_MX" = "Presentaci\U00f3n de PowerPoint (.pptx)";
+        fi = "PowerPoint-esitys (.pptx)";
+        fr = "Pr\U00e9sentation PowerPoint (.pptx)";
+        "fr_CA" = "Pr\U00e9sentation PowerPoint (.pptx)";
+        he = "PowerPoint Presentation (.pptx)";
+        hu = "PowerPoint bemutat\U00f3 (.pptx)";
+        id = "Presentasi PowerPoint (.pptx)";
+        it = "Presentazione standard di PowerPoint (*.pptx)";
+        ja = "PowerPoint \U30d7\U30ec\U30bc\U30f3\U30c6\U30fc\U30b7\U30e7\U30f3 (.pptx)";
+        ko = "PowerPoint \Ud504\Ub808\Uc820\Ud14c\Uc774\Uc158(.pptx)";
+        nl = "PowerPoint-presentatie (.pptx)";
+        no = "PowerPoint-presentasjon (*.pptx)";
+        pl = "Prezentacja programu PowerPoint (pptx)";
+        pt = "Apresenta\U00e7\U00e3o do PowerPoint (.pptx)";
+        "pt_PT" = "Apresenta\U00e7\U00e3o do PowerPoint (.pptx)";
+        ru = "\U041f\U0440\U0435\U0437\U0435\U043d\U0442\U0430\U0446\U0438\U044f PowerPoint (.pptx)";
+        sk = "Prezent\U00e1cia PowerPointu (.pptx)";
+        sv = "PowerPoint-presentation (.pptx)";
+        th = "PowerPoint Presentation (.pptx)";
+        tr = "PowerPoint Sunusu (.pptx)";
+        "zh_CN" = "PowerPoint \U6f14\U793a\U6587\U7a3f(.pptx)";
+        "zh_TW" = "PowerPoint \U7c21\U5831 (.pptx)";
+    };
+    kMDItemLogicalSize = 28315;
+    kMDItemPhysicalSize = 28672;
+    kMDItemTextContent = "Dropin disposable PowerPoint evidence\nGenerated sample only. No personal content.";
+    kMDItemTitle = "Disposable PowerPoint evidence";
+}

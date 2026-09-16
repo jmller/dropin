@@ -1,0 +1,47 @@
+_kMDItemDisplayNameWithExtensions      = "sample.txt"
+_kMDItemPrimaryTextEmbedding           = (
+        {
+        "vec_data" = {length = 1024, bytes = 0x1e2c02a4 5e0d2ca7 7aa20a24 83ab3828 ... db2dc422 f2afce27 };
+        "vec_dim" = 1;
+        "vec_format" = 1;
+        "vec_id" = 1774;
+        "vec_version" = 10;
+    }
+)
+kMDItemContentCreationDate             = 2026-09-08 09:19:20 +0000
+kMDItemContentCreationDate_Ranking     = 2026-09-08 00:00:00 +0000
+kMDItemContentModificationDate         = 2026-09-08 09:19:20 +0000
+kMDItemContentModificationDate_Ranking = 2026-09-08 00:00:00 +0000
+kMDItemContentType                     = "public.plain-text"
+kMDItemContentTypeTree                 = (
+    "public.plain-text",
+    "public.text",
+    "public.data",
+    "public.item",
+    "public.content"
+)
+kMDItemDateAdded                       = 2026-09-08 09:19:20 +0000
+kMDItemDateAdded_Ranking               = 2026-09-08 00:00:00 +0000
+kMDItemDisplayName                     = "sample.txt"
+kMDItemDocumentIdentifier              = 0
+kMDItemEmbeddingVersion                = 3
+kMDItemFSContentChangeDate             = 2026-09-08 09:19:20 +0000
+kMDItemFSCreationDate                  = 2026-09-08 09:19:20 +0000
+kMDItemFSCreatorCode                   = ""
+kMDItemFSFinderFlags                   = 0
+kMDItemFSHasCustomIcon                 = (null)
+kMDItemFSInvisible                     = 0
+kMDItemFSIsExtensionHidden             = 0
+kMDItemFSIsStationery                  = (null)
+kMDItemFSLabel                         = 0
+kMDItemFSName                          = "sample.txt"
+kMDItemFSNodeCount                     = (null)
+kMDItemFSOwnerGroupID                  = 20
+kMDItemFSOwnerUserID                   = 501
+kMDItemFSSize                          = 33
+kMDItemFSTypeCode                      = ""
+kMDItemInterestingDate_Ranking         = 2026-09-08 00:00:00 +0000
+kMDItemKind                            = "Plain Text Document"
+kMDItemLogicalSize                     = 33
+kMDItemPhysicalSize                    = 4096
+kMDItemTextContentLanguage             = "en"

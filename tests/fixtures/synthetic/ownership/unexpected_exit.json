@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "--",
+    "/drop/x"
+  ],
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "lsof: status error\n"
+}

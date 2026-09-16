@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "--",
+    "/drop/x"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "lsof: WARNING: can't stat() nfs file system\n"
+}

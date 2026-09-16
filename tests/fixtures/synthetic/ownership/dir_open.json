@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "lsof",
+    "-Fpn",
+    "+D",
+    "--",
+    "/drop/tree"
+  ],
+  "returncode": 0,
+  "stdout": "p4242\nn/drop/tree/inner.txt\n",
+  "stderr": ""
+}
