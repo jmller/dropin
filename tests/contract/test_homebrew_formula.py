@@ -48,7 +48,7 @@ class HomebrewFormulaTest(unittest.TestCase):
         self.assertIn('depends_on "restic"', text)
         self.assertIn('depends_on "rclone"', text)
         self.assertIn('cached_download', text)
-        self.assertIn('write_env_script', text)
+        self.assertIn('(bin/"dropin").write_env_script', text)
         self.assertNotRegex(text, r"\b(curl|wget)\b")
 
     def test_formula_test_asserts_the_public_version_string(self):

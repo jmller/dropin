@@ -13,7 +13,7 @@ class Dropin < Formula
   def install
     libexec.install cached_download => "dropin.pyz"
     (libexec/"dropin.pyz").chmod 0755
-    bin.write_env_script libexec/"dropin.pyz",
+    (bin/"dropin").write_env_script libexec/"dropin.pyz",
       PATH: "#{Formula["python@3.13"].opt_libexec}/bin:$PATH"
   end
 
